@@ -42,6 +42,39 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta8" date="2024-09-25">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>Make font darker for light mode</li>
+                    <li>Improve font rendering in windows multiline text widget</li>
+                    <li>Change selected text color for multiline text widget</li>
+                    <li>minor UI improvements</li>
+                </ul>
+            </description>
+        </release>
+        <release version="4.0beta7" date="2024-09-25">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>Some error messages were not shown</li>
+                    <li>Properly sort dropdown items</li>
+                    <li>Some default values did not match console defaults</li>
+                    <li>Activate opened subwindow tab in views where subwindow opened from form</li>
+                    <li>Better handle workspace names with special characters</li>
+                    <li>Improve performance when selecting large number of rows</li>
+                    <li>Improve performance for tables where data is auto refreshed</li>
+                    <li>Change text selection color</li>
+                    <li>Focus on the first input field when opening a subwindow form</li>
+                    <li>Select all text when changing fields with Tab</li>
+                    <li>Add submitting forms with Enter key</li>
+                    <li>Fix bottom frame border</li>
+                    <li>Fix missing WiFi icon</li>
+                    <li>Fix some buttons in form windows (e.g. Renew CHR License)</li>
+                    <li>Fix black screen on some Linux distros (e.g. Ubuntu 20.04.6)</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta6" date="2024-09-12">
             <description>
                 <p>What's new:</p>

@@ -29,9 +29,9 @@ modules:
       filename: WinBox_Linux.zip
       only-arches:
         - x86_64
-      url: https://download.mikrotik.com/routeros/winbox/4.0beta6/WinBox_Linux.zip
-      sha256: 3c26f58d00f349b95875ff9abcafc8610798803d7d271f3f2b0760f7f120c4db
-      size: 22220141
+      url: https://download.mikrotik.com/routeros/winbox/4.0beta8/WinBox_Linux.zip
+      sha256: 2361fe66fa8d14c05f1ab5db4c547b2162d70cd5330ac9c7e6ec29d1da5bae19
+      size: 22220389
     - type: script
       dest-filename: winbox
       commands:
