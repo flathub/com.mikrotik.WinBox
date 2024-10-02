@@ -42,6 +42,22 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta9" date="2024-10-02">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>return ESC shortcut to close sub windows</li>
+                    <li>add support for Groups for Saved router list in Login window</li>
+                    <li>add support to import Saved address list .cdb file (NOTE: old .wbx file type is deprecated. This means exported WinBox 3 file won't work, use .cdb file).</li>
+                    <li>add support for opening (changing database path) Saved address lists in login view</li>
+                    <li>fix crash when restoring workspace where opened object's id has changed its type</li>
+                    <li>Login window improved layout of saving password versus remembering last used password</li>
+                    <li>restore comment field text in Login view when reopening window</li>
+                    <li>store selected Workspace for Saved routers, and restore when selecting (in Login view)</li>
+                    <li>make form background a little bit lighter in light mode</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta8" date="2024-09-25">
             <description>
                 <p>What's new:</p>
