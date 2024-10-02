@@ -8,6 +8,11 @@ finish-args:
   - --socket=x11
   - --device=dri
   - --share=network
+  - --filesystem=home
+  - --filesystem=xdg-run/gvfs
+  - --filesystem=/media
+  - --filesystem=/run/media
+  - --filesystem=/mnt
 
 modules:
   - name: WinBox
