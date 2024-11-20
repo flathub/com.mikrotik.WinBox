@@ -42,6 +42,35 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta12" date="2024-11-20">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>implement collapsable tree view in tables</li>
+                    <li>rework form UI (some visual changes, added anchors)
+                      <ul>
+                        <li>clicking anchor (tab) expands target section, collapses other sections and jumps to opened</li>
+                        <li>Shift+click toggles target section</li>
+                        <li>store/restore tab sections state in Workspaces</li>
+                      </ul>
+                    </li>
+                    <li>a few icon improvements</li>
+                    <li>fix adding multirow widget in correct position</li>
+                    <li>fix file upload speed</li>
+                    <li>fix crash when opening traceroute result</li>
+                    <li>implement table autoscroll when navigating with keyboard</li>
+                    <li>fix mouse clicks going through subwindows on some Desktop environments</li>
+                    <li>fix crash when filtering IP/DNS/Cache by Data field</li>
+                    <li>Do not use OS level proxy settings for connections</li>
+                    <li>improve scrolling behaviour</li>
+                    <li>fix UI dragging lag on Windows OS</li>
+                    <li>move subwindow resize activity zone by a few pixels out of inner content</li>
+                    <li>improve scrollbar UX</li>
+                    <li>fix opening instance window when switching workspaces</li>
+                    <li>make form widgets more compact</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta9" date="2024-10-02">
             <description>
                 <p>What's new:</p>
