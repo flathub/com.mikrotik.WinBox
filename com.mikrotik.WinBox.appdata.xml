@@ -53,13 +53,10 @@
                 <p>What's new:</p>
                 <ul>
                     <li>implement collapsable tree view in tables</li>
-                    <li>rework form UI (some visual changes, added anchors)
-                      <ul>
-                        <li>clicking anchor (tab) expands target section, collapses other sections and jumps to opened</li>
-                        <li>Shift+click toggles target section</li>
-                        <li>store/restore tab sections state in Workspaces</li>
-                      </ul>
-                    </li>
+                    <li>rework form UI (some visual changes, added anchors)</li>
+                    <li>- clicking anchor (tab) expands target section, collapses other sections and jumps to opened</li>
+                    <li>- Shift+click toggles target section</li>
+                    <li>- store/restore tab sections state in Workspaces</li>
                     <li>a few icon improvements</li>
                     <li>fix adding multirow widget in correct position</li>
                     <li>fix file upload speed</li>
