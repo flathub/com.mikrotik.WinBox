@@ -23,21 +23,27 @@
     <screenshots>
         <screenshot type="default" environment="gnome">
             <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-main-light.png</image>
+            <description>Login screen</description>
         </screenshot>
         <screenshot environment="gnome:dark">
             <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-main-dark.png</image>
+            <description>Login screen</description>
         </screenshot>
         <screenshot environment="gnome">
             <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-list-light.png</image>
+            <description>List of interfaces and bridge ports</description>
         </screenshot>
         <screenshot environment="gnome:dark">
             <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-list-dark.png</image>
+            <description>List of interfaces and bridge ports</description>
         </screenshot>
         <screenshot environment="gnome">
             <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-propbox-light.png</image>
+            <description>Interface property sheet</description>
         </screenshot>
         <screenshot environment="gnome:dark">
             <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-propbox-dark.png</image>
+            <description>Interface property sheet</description>
         </screenshot>
     </screenshots>
     <content_rating type="oars-1.1"/>
