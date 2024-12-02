@@ -48,6 +48,22 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta13" date="2024-12-02">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>implement opened windows list</li>
+                    <li>implement global menu search</li>
+                    <li>bump minimal macOS version to 12.0, because 11.0 is EOL and dropped by Qt</li>
+                    <li>accept button with Enter/Return keys also on Windows and macOS</li>
+                    <li>fix max u32 value processing on some fields</li>
+                    <li>fix visual 1px bug in form's anchor panel</li>
+                    <li>move form tab's icon to left side to not overlap with scrollbar</li>
+                    <li>fix table comment column when in wrapped mode</li>
+                    <li>make focused button element border more accented</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta12" date="2024-11-20">
             <description>
                 <p>What's new:</p>
