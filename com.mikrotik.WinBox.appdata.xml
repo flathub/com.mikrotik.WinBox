@@ -48,6 +48,39 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta14" date="2024-12-10">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>add autoscroll feature for windows like Log/Ping/Traceroute/etc.</li>
+                    <li>improve left menu popup usability</li>
+                    <li>allow multi item drag and drop</li>
+                    <li>add support for table scrolling when dragging items with mouse</li>
+                    <li>add support for moving files in Files window to other dirs</li>
+                    <li>show system note at login if configured</li>
+                    <li>clicking on zoom value label will reset zoom to 100%</li>
+                    <li>show filtered rows count if filter applied</li>
+                    <li>show status fields in ping and torch windows</li>
+                    <li>implement support for directory upload</li>
+                    <li>improve max upload speed</li>
+                    <li>allow copying Resource bottom panel text field values</li>
+                    <li>auto close Terminal window if disconnected with Ctrl+D</li>
+                    <li>fix ctrl+wheel zooming in popups/overlays</li>
+                    <li>do not show empy context menu elemenets in System Packages</li>
+                    <li>wrap ALL one-line text input fields to new line when width reached</li>
+                    <li>calculate minimal form's width including "not" and "optional" buttons</li>
+                    <li>fix multiline comment header size in table panel</li>
+                    <li>allow backspace to close optional fields (empty text field + backspace)</li>
+                    <li>add context menu also for MultiLine text input (Copy/Paste/Select All)</li>
+                    <li>fix some complex column value updating (DHCP Server/Lease/Bridge Port)</li>
+                    <li>fix sunion+single field when unsetting field (DNS/Static/Forward-To)</li>
+                    <li>fix show correct selected rows count (when using shift + click)</li>
+                    <li>check if window/view exists before restoring from workspace</li>
+                    <li>improve ordered table load performance when sorted by #</li>
+                    <li>improve table load performance</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta13" date="2024-12-02">
             <description>
                 <p>What's new:</p>
