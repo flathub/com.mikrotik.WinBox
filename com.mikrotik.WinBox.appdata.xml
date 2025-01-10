@@ -48,6 +48,31 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta16" date="2025-01-10">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>Redesigned table view</li>
+                    <li>Implement column reordering</li>
+                    <li>Implement table find feature</li>
+                    <li>Implement table row colors defined in WinBox files, such as for log, route, etc.</li>
+                    <li>Allow table's right-side menu to be collapsed under a dropdown</li>
+                    <li>Make disabled table rows more readable</li>
+                    <li>Improve scrolling experience</li>
+                    <li>Move table's selected rows count label before the filtered count label</li>
+                    <li>Change the style of the focused table row and only show it when it has keyboard focus</li>
+                    <li>Add app setting to change table row padding (height)</li>
+                    <li>Add app setting to toggle table column separators</li>
+                    <li>Add a "Select All" checkbox in the table header</li>
+                    <li>Add some executable properties details for Windows</li>
+                    <li>Add Ctrl+A, Home, End, Page Up, and Page Down shortcuts for table navigation</li>
+                    <li>Fix occasional crashes in Windows when updating or using "New WinBox"</li>
+                    <li>Fix table navigation with Shift and Cmd keys on macOS</li>
+                    <li>Fix neighbor discovery when multiple instances are opened in Windows</li>
+                    <li>Fix IPv6 neighbor discovery on Windows OS, which should now work with multiple active interfaces</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta14" date="2024-12-10">
             <description>
                 <p>What's new:</p>
