@@ -39,9 +39,9 @@ modules:
       sha256: e75b070d22bbd48ed0a45d3b6eab1458de9a6583293fd9658f6d48f0246051a9
       size: 23500419
       x-checker-data:
-        - type: html
-        - url: https://mikrotik.com/download
-        - pattern: (https://download.mikrotik.com/routeros/winbox/([^/]+)/WinBox_Linux.zip)
+        type: html
+        url: https://mikrotik.com/download
+        pattern: (https://download.mikrotik.com/routeros/winbox/([^/]+)/WinBox_Linux.zip)
     - type: script
       dest-filename: winbox
       commands:
