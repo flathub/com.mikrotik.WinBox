@@ -48,6 +48,39 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta17" date="2025-01-29">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>Table: Change to a custom font that has same-width numbers</li>
+                    <li>Table: Align some number-based columns to the right</li>
+                    <li>Table: Select the table's first column as the default filtered column when adding a new row</li>
+                    <li>Table: Focus the table filter's first input field if the panel is opened by the user manually</li>
+                    <li>Table: Add dropdown suggestions for saddress fields which accept an interface value (e.g., IP Route)</li>
+                    <li>Login view: Add Uptime column for the RoMON table</li>
+                    <li>Window management: Allow fullscreen with F11 and store/restore fullscreen/maximized OS window states</li>
+                    <li>Performance optimization: Increase performance for large table loads a little</li>
+                    <li>ComboBox efficiency: Improve performance for combo boxes with large data sets</li>
+                    <li>Table selection consistency: Make the table selection checkbox size more consistent and accept a click on the whole cell</li>
+                    <li>User interface elements: Update MDI title bar style</li>
+                    <li>User interface elements: Update filter panel style</li>
+                    <li>Form handling: Do not wrap login username and password fields</li>
+                    <li>Window management: Rework how the OS window is stored/restored</li>
+                    <li>Sensitive data handling: Make the "Hide Passwords" widget read-only and enabled if connected to ROS with a user lacking the sensitive policy</li>
+                    <li>Table filtering: Restore autoscroll state when the user scrolls back to the end</li>
+                    <li>Table filtering: Update filtered count icon when restoring workspace with quick filter</li>
+                    <li>Form handling: Fix form's multifield value update (e.g., bond port states)</li>
+                    <li>Sorting issues: Fix IPv6 sorting</li>
+                    <li>Context menu: Do not crash when the context menu target doesn't exist (e.g., Dude->RouterOS Info->Wireless Registrations)</li>
+                    <li>Crashes: Fix crash on Disconnect</li>
+                    <li>UI Navigation: Fix opening the correct window on different switch devices</li>
+                    <li>User Interface: Show a warning in some more complex UI forms</li>
+                    <li>Performance optimization: Try fixing line glitches when using fractional OS app scaling</li>
+                    <li>Table filtering: Reset table filter row fields if the last "-" is pressed</li>
+                    <li>Table filtering: Switch the table's filter + - button order as it was in WinBox 3</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta16" date="2025-01-10">
             <description>
                 <p>What's new:</p>
