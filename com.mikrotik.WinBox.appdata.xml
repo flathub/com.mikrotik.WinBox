@@ -48,6 +48,9 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta18" date="2025-03-10">
+            <description></description>
+        </release>
         <release version="4.0beta17" date="2025-01-29">
             <description>
                 <p>What's new:</p>
@@ -71,7 +74,7 @@
                     <li>Table filtering: Update filtered count icon when restoring workspace with quick filter</li>
                     <li>Form handling: Fix form's multifield value update (e.g., bond port states)</li>
                     <li>Sorting issues: Fix IPv6 sorting</li>
-                    <li>Context menu: Do not crash when the context menu target doesn't exist (e.g., Dude->RouterOS Info->Wireless Registrations)</li>
+                    <li>Context menu: Do not crash when the context menu target doesn't exist (e.g., Dude-&gt;RouterOS Info-&gt;Wireless Registrations)</li>
                     <li>Crashes: Fix crash on Disconnect</li>
                     <li>UI Navigation: Fix opening the correct window on different switch devices</li>
                     <li>User Interface: Show a warning in some more complex UI forms</li>
