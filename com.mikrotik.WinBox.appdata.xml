@@ -48,6 +48,28 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta18" date="2025-03-10">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>User interface: small improvements</li>
+                    <li>Table: when copying an object in an ordered list, the copied object is now placed immediately after the original</li>
+                    <li>Login: do not accept IPv4 with zero prefixes in "Connect to" field</li>
+                    <li>Form: do not accept IPv4 addresses format where numbers have zeros as prefix</li>
+                    <li>Table: move total/selected/filtered count to left side of status bar</li>
+                    <li>Form: validate min/max length of password fields</li>
+                    <li>Fix crash when workspace restores window with different type (e.g., System->Health on routers vs x86/CHR)</li>
+                    <li>Form: fix an issue where dynamically generated tabs (e.g., IGMP Snooping) did not properly show or hide their child elements</li>
+                    <li>Table: hide/clip icons to cell width</li>
+                    <li>Table: improve UI performance on initial table loading</li>
+                    <li>Disable TCP Nagle algorithm</li>
+                    <li>Fix read-only multi-checkbox field</li>
+                    <li>Fix missing button in specific cases (e.g., System/Disks/BTRFS, LTE/eSIM)</li>
+                    <li>Allow selecting text for read-only fields in some specific cases</li>
+                    <li>macOS: set bundle version and GUI identifier values</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta17" date="2025-01-29">
             <description>
                 <p>What's new:</p>
@@ -71,7 +93,7 @@
                     <li>Table filtering: Update filtered count icon when restoring workspace with quick filter</li>
                     <li>Form handling: Fix form's multifield value update (e.g., bond port states)</li>
                     <li>Sorting issues: Fix IPv6 sorting</li>
-                    <li>Context menu: Do not crash when the context menu target doesn't exist (e.g., Dude->RouterOS Info->Wireless Registrations)</li>
+                    <li>Context menu: Do not crash when the context menu target doesn't exist (e.g., Dude-&gt;RouterOS Info-&gt;Wireless Registrations)</li>
                     <li>Crashes: Fix crash on Disconnect</li>
                     <li>UI Navigation: Fix opening the correct window on different switch devices</li>
                     <li>User Interface: Show a warning in some more complex UI forms</li>
