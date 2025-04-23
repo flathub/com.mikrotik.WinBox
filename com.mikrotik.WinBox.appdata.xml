@@ -48,6 +48,9 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta19" date="2025-04-23">
+            <description></description>
+        </release>
         <release version="4.0beta18" date="2025-03-10">
             <description>
                 <p>What's new:</p>
@@ -58,7 +61,7 @@
                     <li>Form: do not accept IPv4 addresses format where numbers have zeros as prefix</li>
                     <li>Table: move total/selected/filtered count to left side of status bar</li>
                     <li>Form: validate min/max length of password fields</li>
-                    <li>Fix crash when workspace restores window with different type (e.g., System->Health on routers vs x86/CHR)</li>
+                    <li>Fix crash when workspace restores window with different type (e.g., System-&gt;Health on routers vs x86/CHR)</li>
                     <li>Form: fix an issue where dynamically generated tabs (e.g., IGMP Snooping) did not properly show or hide their child elements</li>
                     <li>Table: hide/clip icons to cell width</li>
                     <li>Table: improve UI performance on initial table loading</li>
