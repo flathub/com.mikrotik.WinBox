@@ -48,6 +48,16 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta20" date="2025-04-23">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>fix RoMON connect (introduced in v4.0beta19)</li>
+                    <li>fix table column sorting by string in some cases</li>
+                    <li>Login: ESC button cancels connection process</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta19" date="2025-04-23">
             <description>
                 <p>What's new:</p>
