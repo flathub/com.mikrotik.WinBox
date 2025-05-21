@@ -48,6 +48,23 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta21" date="2025-05-21">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>reintroduce tab support in the top menu of forms, with the ability to open multiple tabs using Shift + left-click.</li>
+                    <li>fix date fields to allow year until 2106</li>
+                    <li>user interface: remove input field wrapping feature</li>
+                    <li>fix missing status fields for some interface instances (e.g. legacy wireless)</li>
+                    <li>fix restoring object instance from workspace if opened from "generic" table</li>
+                    <li>form: make default graph width a little bigger</li>
+                    <li>fix restoring some table windows from workspace</li>
+                    <li>fix restore Advanced Mode buttons</li>
+                    <li>user interface: darker shadow for focused window</li>
+                    <li>fix crash on opening some type of query type windows (PPP/Wireless Scan)</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta20" date="2025-04-23">
             <description>
                 <p>What's new:</p>
