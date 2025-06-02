@@ -48,6 +48,27 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta22" date="2025-06-02">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>correctly show limited entry count in Ping form</li>
+                    <li>do not sort radio buttons by text and improve UI style</li>
+                    <li>make certain drop-down menus editable (e.g. legacy wireless Frequency property)</li>
+                    <li>add support for new RouterOS types</li>
+                    <li>fix legacy Wireless "Setup Repeater" action</li>
+                    <li>fix some complex field read-only states</li>
+                    <li>do not apply default configuration to objects received from RouterOS or copied objects</li>
+                    <li>form: layout checkboxes in available width if column count not defined</li>
+                    <li>accept Enter/Esc keyboard actions while connecting in Login panel or Reconnect panel</li>
+                    <li>terminal: fix output in some cases when using top command through /container/shell</li>
+                    <li>prevent opening read-only with empty array widget</li>
+                    <li>do not show empty buttons in form panel with empty names</li>
+                    <li>fix crash when closing connection with table filter opened</li>
+                    <li>terminal: ignore legacy shift-out (SO) character</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta21" date="2025-05-21">
             <description>
                 <p>What's new:</p>
