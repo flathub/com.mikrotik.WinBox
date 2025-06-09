@@ -48,6 +48,26 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta23" date="2025-06-09">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>add dynamic form field syntax validation</li>
+                    <li>- tooltips for form labels</li>
+                    <li>- edited fields now indicated with blue label</li>
+                    <li>add tooltips for some buttons</li>
+                    <li>add tooltips for tables</li>
+                    <li>- active flags</li>
+                    <li>- cells with truncated values</li>
+                    <li>- header with truncated values</li>
+                    <li>- cells containing extra information (e.g. netmask)</li>
+                    <li>add hover info for some form fields</li>
+                    <li>- similar to WinBox v3, but now field must be focused</li>
+                    <li>add outline for checkbox and radio button widgets</li>
+                    <li>minor icon color changes</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta22" date="2025-06-02">
             <description>
                 <p>What's new:</p>
