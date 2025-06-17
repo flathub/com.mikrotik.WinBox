@@ -50,6 +50,8 @@
     <releases>
         <release version="4.0beta24" date="2025-06-17">
             <description>
+                <p>What's new:</p>
+                <ul>
                     <li>add "open in new window" feature in Login panel</li>
                     <li>- add "open in new" checkbox</li>
                     <li>- perform connect when pressing Enter while using keyboard in "Saved" table</li>
@@ -71,6 +73,7 @@
                     <li>fix crash on very rare cases when ros sends notifies in specific order</li>
                     <li>align dragged inner windows to whole pixels (macos has visual bugs)</li>
                     <li>show "New Winbox" and "Global settings" top buttons in Reconnect panel</li>
+                </ul>
             </description>
         </release>
         <release version="4.0beta23" date="2025-06-09">
