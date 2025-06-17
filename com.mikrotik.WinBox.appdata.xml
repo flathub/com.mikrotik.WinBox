@@ -49,7 +49,29 @@
     <content_rating type="oars-1.1"/>
     <releases>
         <release version="4.0beta24" date="2025-06-17">
-            <description></description>
+            <description>
+                    <li>add "open in new window" feature in Login panel</li>
+                    <li>- add "open in new" checkbox</li>
+                    <li>- perform connect when pressing Enter while using keyboard in "Saved" table</li>
+                    <li>- selecting multiple records from "Saved" table automatically enables "open in new window" mode</li>
+                    <li>allow to specify workspace from command line as 4th argument</li>
+                    <li>add "RoMON Agent" field in Login panel (stored in Saved list)</li>
+                    <li>- also supports opening in multiple new OS windows</li>
+                    <li>pass UI current state (settings) when opening new OS window</li>
+                    <li>- current global/login/table settings are applied immediately to opened window</li>
+                    <li>change some font weights and color</li>
+                    <li>reduce input widgets default height by 2px</li>
+                    <li>fix potential crash on disconnect</li>
+                    <li>fix table flags font weight</li>
+                    <li>fix terminal missing bold by including variable format font file</li>
+                    <li>disconnect view when RoMON end-device rebooted</li>
+                    <li>add RoMON agent info in windows OS title</li>
+                    <li>restore selected tab in Login view when disconnecting from RoMON</li>
+                    <li>add multi select + connect feature for Neigbors table</li>
+                    <li>fix crash on very rare cases when ros sends notifies in specific order</li>
+                    <li>align dragged inner windows to whole pixels (macos has visual bugs)</li>
+                    <li>show "New Winbox" and "Global settings" top buttons in Reconnect panel</li>
+            </description>
         </release>
         <release version="4.0beta23" date="2025-06-09">
             <description>
