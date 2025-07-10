@@ -49,7 +49,7 @@
     <content_rating type="oars-1.1"/>
     <releases>
         <release version="4.0beta26" date="2025-07-10">
-            <description></description>
+            <description>
                 <p>What's new:</p>
                 <ul>
                     <li>files: add support for downloading directory from Files table</li>
@@ -83,6 +83,7 @@
                     <li>remove debug print when selecting record in Saved table (also printed user password)</li>
                     <li>add clear button in Login panel for RoMON agent field</li>
                 </ul>
+            </description>
         </release>
         <release version="4.0beta24" date="2025-06-17">
             <description>
