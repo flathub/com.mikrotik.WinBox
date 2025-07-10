@@ -48,6 +48,9 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta26" date="2025-07-10">
+            <description></description>
+        </release>
         <release version="4.0beta24" date="2025-06-17">
             <description>
                 <p>What's new:</p>
