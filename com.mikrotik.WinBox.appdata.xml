@@ -48,6 +48,43 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta26" date="2025-07-10">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>files: add support for downloading directory from Files table</li>
+                    <li>- also fix downloading file without adding it in subdirectory</li>
+                    <li>files: fix uploading empty file to RouterOS</li>
+                    <li>form: restore "New..." title for objects which are being added</li>
+                    <li>form: accept enter key on action type of panels (Start/Stop)</li>
+                    <li>graphs: rewrite graphs drawing to new engine which uses GPU rendering</li>
+                    <li>- uses less CPU</li>
+                    <li>- renders better quality fonts</li>
+                    <li>- dropping dependency reduced executable size by ~10MiB</li>
+                    <li>graphs: implement Y axis max value back scaling</li>
+                    <li>graphs: show latest curve values, show values on mouse hover</li>
+                    <li>- also freeze graph updating while mouse is pressed</li>
+                    <li>table: add multi-column sorting (add secondary sorts with Shift+click)</li>
+                    <li>table: add support for column auto resize with separator double click</li>
+                    <li>table: fix unnecessary column resize when clicking on separator, but not yet moving mouse</li>
+                    <li>- also fix first ignored click on header after column resize</li>
+                    <li>table: fix updating records in some very rare cases</li>
+                    <li>- seems to be affected only by new File handler</li>
+                    <li>table: fix missing port field filter (for IP:port type of fields)</li>
+                    <li>ui: fix app update "Release notes" text clipping</li>
+                    <li>ui: fix render quality on some global popups, because it were positioned on decimal coordinates</li>
+                    <li>ui: fix missing field borders in table filter panel in dark mode</li>
+                    <li>ui: fix text clipping in Resources panel for CPU field when value is "100 %"</li>
+                    <li>ui: prevent selecting disabled record in combobox with Space key</li>
+                    <li>- e.g. selecting disabled RoMON Neighbors in Login panel</li>
+                    <li>ui: disable font ligatures for regular font</li>
+                    <li>ui: update style of read-only checkbox</li>
+                    <li>widgets: trim text when pasting into one-line type widget fields</li>
+                    <li>remove debug print when selecting record in Saved table (also printed user password)</li>
+                    <li>add clear button in Login panel for RoMON agent field</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta24" date="2025-06-17">
             <description>
                 <p>What's new:</p>
