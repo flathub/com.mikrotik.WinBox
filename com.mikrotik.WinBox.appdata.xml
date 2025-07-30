@@ -48,6 +48,61 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta29" date="2025-07-30">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>table: implement large row count limits (for tables that support it)</li>
+                    <li>- allow to "freeze/pause" any table data update</li>
+                    <li>table: reduce content height calculation delay for auto scrolling tables</li>
+                    <li>table: increase performance when closing files subtree with many elements</li>
+                    <li>ui: allow open new instance for query type windows (e.g. Ping/Traceroute)</li>
+                    <li>ui: remember field values for action/torch type of sub windows</li>
+                    <li>- values are restored until router session is disconnected</li>
+                    <li>ui: improve combobox UX</li>
+                    <li>- open popup on editable combobox only when clicking indicator (or up/down keyboard)</li>
+                    <li>- fix reopening popup when focusing with mouse for first time</li>
+                    <li>- fix again that prevents selecting disabled records</li>
+                    <li>fix digit grouping on numbers exceeding 1 billion</li>
+                    <li>fix crash when selecting User Manager -> Generate Voucher</li>
+                    <li>terminal: accept Ctrl+D and close window when state is (Disconnected)</li>
+                    <li>terminal: correctly accept some symbols with InputMethod (dead/special key)</li>
+                    <li>- problem was observed only on MacOS</li>
+                    <li>macos: set correctly target minimal version 12.0</li>
+                    <li>form: fix missing Actions in Certificate template objects</li>
+                    <li>- also fixes action order on some generic objects</li>
+                    <li>form: implement range type field optional value setting (e.g. Packet Size for Traffic-Generator/Stream)</li>
+                </ul>
+            </description>
+        </release>
+        <release version="4.0beta24" date="2025-06-17">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>add "open in new window" feature in Login panel</li>
+                    <li>- add "open in new" checkbox</li>
+                    <li>- perform connect when pressing Enter while using keyboard in "Saved" table</li>
+                    <li>- selecting multiple records from "Saved" table automatically enables "open in new window" mode</li>
+                    <li>allow to specify workspace from command line as 4th argument</li>
+                    <li>add "RoMON Agent" field in Login panel (stored in Saved list)</li>
+                    <li>- also supports opening in multiple new OS windows</li>
+                    <li>pass UI current state (settings) when opening new OS window</li>
+                    <li>- current global/login/table settings are applied immediately to opened window</li>
+                    <li>change some font weights and color</li>
+                    <li>reduce input widgets default height by 2px</li>
+                    <li>fix potential crash on disconnect</li>
+                    <li>fix table flags font weight</li>
+                    <li>fix terminal missing bold by including variable format font file</li>
+                    <li>disconnect view when RoMON end-device rebooted</li>
+                    <li>add RoMON agent info in windows OS title</li>
+                    <li>restore selected tab in Login view when disconnecting from RoMON</li>
+                    <li>add multi select + connect feature for Neigbors table</li>
+                    <li>fix crash on very rare cases when ros sends notifies in specific order</li>
+                    <li>align dragged inner windows to whole pixels (macos has visual bugs)</li>
+                    <li>show "New Winbox" and "Global settings" top buttons in Reconnect panel</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta26" date="2025-07-10">
             <description>
                 <p>What's new:</p>
