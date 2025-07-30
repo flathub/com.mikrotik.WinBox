@@ -48,6 +48,33 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta29" date="2025-07-30">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>table: implement large row count limits (for tables that support it)</li>
+                    <li>- allow to "freeze/pause" any table data update</li>
+                    <li>table: reduce content height calculation delay for auto scrolling tables</li>
+                    <li>table: increase performance when closing files subtree with many elements</li>
+                    <li>ui: allow open new instance for query type windows (e.g. Ping/Traceroute)</li>
+                    <li>ui: remember field values for action/torch type of sub windows</li>
+                    <li>- values are restored until router session is disconnected</li>
+                    <li>ui: improve combobox UX</li>
+                    <li>- open popup on editable combobox only when clicking indicator (or up/down keyboard)</li>
+                    <li>- fix reopening popup when focusing with mouse for first time</li>
+                    <li>- fix again that prevents selecting disabled records</li>
+                    <li>fix digit grouping on numbers exceeding 1 billion</li>
+                    <li>fix crash when selecting User Manager -> Generate Voucher</li>
+                    <li>terminal: accept Ctrl+D and close window when state is (Disconnected)</li>
+                    <li>terminal: correctly accept some symbols with InputMethod (dead/special key)</li>
+                    <li>- problem was observed only on MacOS</li>
+                    <li>macos: set correctly target minimal version 12.0</li>
+                    <li>form: fix missing Actions in Certificate template objects</li>
+                    <li>- also fixes action order on some generic objects</li>
+                    <li>form: implement range type field optional value setting (e.g. Packet Size for Traffic-Generator/Stream)</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta26" date="2025-07-10">
             <description>
                 <p>What's new:</p>
