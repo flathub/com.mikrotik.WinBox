@@ -48,6 +48,35 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta30" date="2025-08-27">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>login panel: add option to set Saved routers database password</li>
+                    <li>login panel: add "Move" feature for Saved routers database</li>
+                    <li>- also show current database path in table's status bar</li>
+                    <li>login panel: add option to Export user database</li>
+                    <li>login panel: update style for decrypt form panel</li>
+                    <li>login panel: fix changing to RoMON tab automatically when connected to RoMON</li>
+                    <li>widgets: force password field character to "bullet" unicode</li>
+                    <li>- Manrope on Windows otherwise has very slow first render</li>
+                    <li>ui: add support for bar graphs in table and form</li>
+                    <li>ui: do not allow mdi windows to go out of viewport</li>
+                    <li>form: add/restore support for grid layout (torch/traceroute/quickset)</li>
+                    <li>form: fix some bitrate fields with big numbers (firewall/hotspot/queues)</li>
+                    <li>form: do not stretch inline buttons (quickset)</li>
+                    <li>form: add support for table and linked fields (quickset)</li>
+                    <li>form: fix first field autofocus for some types and also autofocus Saved router database password field</li>
+                    <li>fix crash when creating cloud backup file when there is error</li>
+                    <li>fix crash when copying not added object in ordered table</li>
+                    <li>consider field values depending on dynamic tab's state</li>
+                    <li>- table: show empty column values of dynamically hidden tab (e.g. bridge IGMP snooping)</li>
+                    <li>- form: do not send/package fields of dynamically hidden tab</li>
+                    <li>tooltip: keep showing when mouse hovered over tooltip</li>
+                    <li>table: elide text in status bar if width too small</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta29" date="2025-07-30">
             <description>
                 <p>What's new:</p>
