@@ -48,6 +48,9 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta30" date="2025-08-27">
+            <description></description>
+        </release>
         <release version="4.0beta29" date="2025-07-30">
             <description>
                 <p>What's new:</p>
@@ -64,7 +67,7 @@
                     <li>- fix reopening popup when focusing with mouse for first time</li>
                     <li>- fix again that prevents selecting disabled records</li>
                     <li>fix digit grouping on numbers exceeding 1 billion</li>
-                    <li>fix crash when selecting User Manager -> Generate Voucher</li>
+                    <li>fix crash when selecting User Manager -&gt; Generate Voucher</li>
                     <li>terminal: accept Ctrl+D and close window when state is (Disconnected)</li>
                     <li>terminal: correctly accept some symbols with InputMethod (dead/special key)</li>
                     <li>- problem was observed only on MacOS</li>
