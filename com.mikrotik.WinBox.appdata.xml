@@ -49,7 +49,35 @@
     <content_rating type="oars-1.1"/>
     <releases>
         <release version="4.0beta33" date="2025-09-29">
-            <description></description>
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>table: fix incorrect sort in tree-structured tables</li>
+                    <li>table: update flag style</li>
+                    <li>table: fix some column default positions (tx/rx/fp columns added as last)</li>
+                    <li>table: remove collapse mode for Comment column</li>
+                    <li>settings: provide option to position Comment column in front or back</li>
+                    <li>- if columns reordered, then setting not actual in that table anymore</li>
+                    <li>form: send data only when there are changes or new object</li>
+                    <li>- highlight apply/ok buttons to indicate if there are changes or errors</li>
+                    <li>form: show comment,icon,flag in dropdown field for supported items</li>
+                    <li>form: add support for some items to be bold in dropdown field (used only by legacy wireless frequency field)</li>
+                    <li>form: show better error text with hexadecimal field type</li>
+                    <li>form: widget: correctly load some optional values (e.g. IPv6/ND/Prefixes 6to4 Interface)</li>
+                    <li>form: add support for optional fields with optional values (e.g. used by Wifi Arp Timeout field)</li>
+                    <li>terminal: fix rare crash on special escape sequence</li>
+                    <li>fix discovery/mac-connect on some situations where 169.254.*.* address is used</li>
+                    <li>fix some potential special cases on torch commands to not stop on error</li>
+                    <li>ui: add support for fields with clickable URL</li>
+                    <li>ui: do not show shadow for expanded mdi windows</li>
+                    <li>ui: do not show error message when there is no address database file (happens when not using Saved list or on first launch)</li>
+                    <li>ui: change Files upload/download progress panel for better ux with many files</li>
+                    <li>- show 1st progressbar for current file status, 2nd progressbar for total file count progress</li>
+                    <li>fix field validations for some complex address fields with VRF</li>
+                    <li>update some field error texts</li>
+                    <li>update support for new field types (used by future RouterOS versions)</li>
+                </ul>
+            </description>
         </release>
         <release version="4.0beta30" date="2025-08-27">
             <description>
