@@ -48,6 +48,15 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta35" date="2025-10-14">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>ui: fix bar graphs for LTE signals</li>
+                    <li>windows: fix loading settings when opening new window (also fixes infinite open loop)</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta33" date="2025-09-29">
             <description>
                 <p>What's new:</p>
