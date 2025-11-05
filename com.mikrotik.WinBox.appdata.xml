@@ -48,6 +48,24 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta39" date="2025-11-05">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>settings: add Custom font and UI scaling settings</li>
+                    <li>ui: disable OS fractional scaling support (starting from 175% value is rounded to 200%)</li>
+                    <li>ui: allow zoom and reset with keyboard shortcuts (Cmd+Scroll, Cmd++, Cmd+=, Cmd+-, Cmd+0)</li>
+                    <li>ui: improved internal zoom scaling behavior</li>
+                    <li>ui: scale/move internal windows when zooming (note: previous workspace window settings will change positions)</li>
+                    <li>ui: center windows when opened for the first time</li>
+                    <li>ui: allow separately scale UI element paddings/spacing</li>
+                    <li>ui: slightly improve performance for some widget creation</li>
+                    <li>terminal: fix mouse selection with some zoom values</li>
+                    <li>fix object UI update when connected with RouterOS v6</li>
+                    <li>fix Windows executable compatibility with Microsoft AppLocker;</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta35" date="2025-10-14">
             <description>
                 <p>What's new:</p>
