@@ -48,6 +48,36 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta41" date="2025-11-13">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>rework all global+window management shorcuts to use Alt+Key/Optional+Key combination</li>
+                    <li>shortcuts: add Alt+S/Alt+A to switch between windows</li>
+                    <li>- works the same way as in all OS systems (e.g. Alt+S == Alt+Tab)</li>
+                    <li>shortcuts: replace Ctrl+(Shift)+W/CMD+W with Alt+W key combo to close window</li>
+                    <li>- previosly this shortcut expaneded open window panel</li>
+                    <li>shortcuts: add Alt+T to open new Terminal window</li>
+                    <li>shortcuts: change Ctrl+Shift+K/CMD+K to Alt+F as global menu search shortcut</li>
+                    <li>shortcuts: make Ctrl+Insert (Copy) and Shift+Insert (Paste) work in terminal</li>
+                    <li>shortcuts: add Ctrl+F4/CMD+F4 to close internal window</li>
+                    <li>macos: implement standard MacOS shortcut CMD+M to minimize OS window</li>
+                    <li>shortcut: Ctrl+(Shift)+Tab moves through tabs (Form and Table window)</li>
+                    <li>form: focus new input field every time tab is switched</li>
+                    <li>ui: fix window resizing when opened for the first time and not moved</li>
+                    <li>ui: make confirmation dialog OK button focused by default</li>
+                    <li>- make OK button accented</li>
+                    <li>- make button order consistent on all platforms for now</li>
+                    <li>ui: change style of focused accent button</li>
+                    <li>widgets: do not accept Enter/Return key as trigger for radiobuttons/checkboxes on all platforms</li>
+                    <li>- so that can use these keys to submit form while focusing radio/checkbox</li>
+                    <li>table: fix drag and drop reorder when moving multiple items on some situations</li>
+                    <li>terminal: fix text selection on some zoom levels (Windows OS)</li>
+                    <li>ui: fix window dragging in macos (introduced 4.0beta39)</li>
+                    <li>ui: fix scaling for non-resized window after switched tab (introduced 4.0beta39)</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta39" date="2025-11-05">
             <description>
                 <p>What's new:</p>
