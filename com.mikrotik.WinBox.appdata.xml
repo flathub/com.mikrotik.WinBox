@@ -48,6 +48,33 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta42" date="2025-11-20">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>macos: move away from Opt+key shortcuts to not mess with different languages</li>
+                    <li>- Opt+W -&gt; CMD+W</li>
+                    <li>- Opt+S -&gt; CMD+S</li>
+                    <li>- Opt+A -&gt; CMD+Shift+S</li>
+                    <li>- Opt+F -&gt; CMD+Opt+F</li>
+                    <li>- Opt+T -&gt; CMD+T</li>
+                    <li>ui: fix to prevent opening multiple instances of simple form setting windows (introduced 4.0beta31)</li>
+                    <li>ui: fix dynamic confirmation popup width, when content smaller than buttons</li>
+                    <li>ui: increase app max zoom limit 200% -&gt; 250%</li>
+                    <li>table: optimize table ui re-draw when reordering rows</li>
+                    <li>table: add separators for status bar status elements</li>
+                    <li>table: fix filter panel action button state when used together with quick filter</li>
+                    <li>table: make quick filter popup width larger to fit longer names</li>
+                    <li>settings: add option to change font rendering engine</li>
+                    <li>- by testing mostly useful for Windows users when switched to some system font</li>
+                    <li>table: fix: focus find input field when clicked on find icon (sometimes didn't work in MacOS)</li>
+                    <li>scale: fix zoom scaling for workspace popup and table search field</li>
+                    <li>terminal: add support for Ctrl+left/right to move cursor by words</li>
+                    <li>table: fix header comment wrapping in new line when it contains searched text</li>
+                    <li>form: restore Collect checkbox fields in Torch panel in ROS6</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta41" date="2025-11-13">
             <description>
                 <p>What's new:</p>
