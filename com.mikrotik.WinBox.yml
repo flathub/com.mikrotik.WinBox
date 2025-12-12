@@ -14,7 +14,6 @@ finish-args:
   - --filesystem=/run/media
   - --filesystem=/mnt
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
-
 modules:
   - name: WinBox
     buildsystem: simple
@@ -35,12 +34,12 @@ modules:
         filename: WinBox_Linux.zip
         only-arches:
           - x86_64
-        url: https://download.mikrotik.com/routeros/winbox/4.0beta42/WinBox_Linux.zip
-        sha256: 73e69ec234e5f96fda853769f422184fe303e0d7fe2f9f1038d1424627da3872
-        size: 18531214
+        url: https://download.mikrotik.com/routeros/winbox/4.0beta44/WinBox_Linux.zip
+        sha256: 2cfabb28f3a3e7d354868402c690155bca9b8d7246c51c3c7d1253effa83b593
+        size: 18819457
         x-checker-data:
           type: html
-          url: https://mikrotik.com/download
+          url: https://mikrotik.com/download/winbox
           pattern: (https://download.mikrotik.com/routeros/winbox/([^/]+)/WinBox_Linux.zip)
       - type: script
         dest-filename: winbox

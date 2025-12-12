@@ -48,6 +48,23 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta44" date="2025-12-10">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>font: change font from custom Manrope to Inter</li>
+                    <li>- add settings to change font weight and spacing values</li>
+                    <li>- remove rendering setting, make all font rendering native</li>
+                    <li>scale: rework scaling to support OS fractional scaling values (e.g. 125%,150%,175%)</li>
+                    <li>ui: rework resources and settings panel for a more compact layout</li>
+                    <li>ui: make app settings popup non-modal and without overlay</li>
+                    <li>ui: fix wireless object panel memory leak</li>
+                    <li>ui: add support for RouterOS skin files</li>
+                    <li>- fix how table filter key is stored in workspace (note: this change will affect some stored filters in older workspace files)</li>
+                    <li>terminal: fix input handling for alternate keyboard layouts when using the Alt key</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta42" date="2025-11-20">
             <description>
                 <p>What's new:</p>
