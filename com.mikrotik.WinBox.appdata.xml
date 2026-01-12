@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
     <id>com.mikrotik.WinBox</id>
     <launchable type="desktop-id">com.mikrotik.WinBox.desktop</launchable>
     <name>WinBox</name>
@@ -8,13 +8,13 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>LicenseRef-proprietary</project_license>
     <description>
+        <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by MikroTik.**</p>
         <p>
             WinBox is a small utility that allows the administration of
             MikroTik RouterOS using a fast and simple GUI. All WinBox
             interface functions are as close as possible mirroring the
             console functions, that is why there are no WinBox sections
-            in the manual. NOTE: This wrapper is not verified by,
-            affiliated with, or supported by MikroTik.
+            in the manual. 
         </p>
     </description>
     <url type="homepage">https://mikrotik.com</url>
