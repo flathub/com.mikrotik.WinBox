@@ -48,6 +48,53 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0beta47" date="2026-01-20">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>app settings: rework button, add shortcuts info popup and about window</li>
+                    <li>app settings: set default font spacing value to 0</li>
+                    <li>app settings: reduce the provided font list</li>
+                    <li>app settings: add reset button for row height field</li>
+                    <li>ui: limit internal window maximum size to available viewport</li>
+                    <li>- this guarantees that dragging window into top left corner will always fit whole window and all controls will be accessible</li>
+                    <li>ui: add socksify icon from newer RouterOS</li>
+                    <li>ui: add support for confirmation messages</li>
+                    <li>ui: add support for mouse with horizontal scrolling</li>
+                    <li>ui: allow disabled(X) and inactive(I) flags to be active at the same time</li>
+                    <li>ui: close action panels dynamic dialog if finished signal received from RouterOS</li>
+                    <li>ui: close selected window with Alt(CMD)+W while using opened window panel</li>
+                    <li>ui: compact app top toolbar</li>
+                    <li>ui: disable mono numbers in resource status panel</li>
+                    <li>ui: disable moving/resizing some modal windows</li>
+                    <li>ui: fix "Setup" window showing wrong text</li>
+                    <li>ui: fix closing some modal popup windows on disconnect (e.g. file selection, password change)</li>
+                    <li>ui: fix font hinting for multiline textarea in some places</li>
+                    <li>ui: fix font settings in form's combobox popup elements</li>
+                    <li>ui: restore System/License "Paste Key" button</li>
+                    <li>ui: set zoom panel size on current size when opening</li>
+                    <li>ui: show password prompt on login if user's password expired</li>
+                    <li>ui: show popup info message if connected RouterOS has trial/demo/old license</li>
+                    <li>ui: show shortcut in button tooltips in some places</li>
+                    <li>ui: simplify WinBox new version update button</li>
+                    <li>form: fix IPv6/ND/Prefixes field state in some cases</li>
+                    <li>graphs: fix legend fonts to follow global settings</li>
+                    <li>graphs: improve legend quality a little for small fonts by disabling tnum</li>
+                    <li>login panel: clip right side table panel when OS window too small not to overlap with input elements</li>
+                    <li>login panel: fix rendering quality for input fields in some zoom levels</li>
+                    <li>scale: work on MikroTik logo scaling</li>
+                    <li>scale: work on resource panel better scaling</li>
+                    <li>skins: add support for hiding table tabs</li>
+                    <li>skins: rework which views are prioritized when skin hides main ones</li>
+                    <li>table: clip toolbar's view if it exceeds window's width</li>
+                    <li>table: show action result in events when moving files within table</li>
+                    <li>terminal: fix CTRL+L command on some situations (clear display command)</li>
+                    <li>widget: show tooltip for combobox if a popup row's text is truncated</li>
+                    <li>widgets: fix rare cases where input field does not accept text updates when text was pasted</li>
+                    <li>fix command line --version parameter</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta44" date="2025-12-10">
             <description>
                 <p>What's new:</p>
