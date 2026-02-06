@@ -48,6 +48,19 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0rc1" date="2026-02-05">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>linux: try to use XDG Desktop Portals to support better File selector dialogs</li>
+                    <li>table: auto adjust width of popup while scrolling for table quick filter</li>
+                    <li>table: fix rare cases where view hangs when filtering/removing many rows which are not in viewport</li>
+                    <li>ui: fix invisible scrollbar when UI is zoomed out too much</li>
+                    <li>terminal: add text strike-through support (will be used by newer RouterOS to show deprecated parameters)</li>
+                    <li>about: add MikroTik license text</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0beta47" date="2026-01-20">
             <description>
                 <p>What's new:</p>
