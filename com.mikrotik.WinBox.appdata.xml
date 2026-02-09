@@ -48,6 +48,16 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.0rc3" date="2026-02-09">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>ui: add new field type support</li>
+                    <li>table: fix crash on Files table when subdirectories opened and remove event received</li>
+                    <li>fix crash when pressing disconnect while set/add/remove command has not responded</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0rc1" date="2026-02-05">
             <description>
                 <p>What's new:</p>
