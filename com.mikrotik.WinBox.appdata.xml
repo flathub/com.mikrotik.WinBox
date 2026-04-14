@@ -48,6 +48,39 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.1" date="2026-04-13">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>form: improve "address" field by allowing to select Interface and VRF fields (where supported);</li>
+                    <li>form: allow opening linked object or its parent table for certain fields (e.g., when adding an IP address and selecting an interface from the dropdown, it is possible to open either the interface table or the selected interface);</li>
+                    <li>form: add support for input field postfix;</li>
+                    <li>form: add support for min/max row count limit for multi fields;</li>
+                    <li>form: add support for monospace font in scripts;</li>
+                    <li>form: add support for new "note" attribute which shows documentation or hints on label hover;</li>
+                    <li>form: change style of multi field plus/minus buttons;</li>
+                    <li>form: fix "hyperlink" field type (IP/Routes Immediate Gateway);</li>
+                    <li>form: fix sorting for some fields;</li>
+                    <li>form: increase minimal width for combobox and multi-selection fields;</li>
+                    <li>mdi: fix resizing when window was moved to top or left side and then resized;</li>
+                    <li>mdi: move window resize mouse area 1px deeper within content;</li>
+                    <li>mdi: try to move whole window into workspace when (re)opening;</li>
+                    <li>table: change disabled row icon color;</li>
+                    <li>table: fix warnings printed in app output;</li>
+                    <li>table: make New button with dropdown expand full available height;</li>
+                    <li>table: send only disable/enable attribute when disabling/enabling row;</li>
+                    <li>table: try to fix Windows on ARM rendering issues;</li>
+                    <li>table: update some firewall table icons to stand out more;</li>
+                    <li>ui: fix Cancel button focus in file transfer progress dialog;</li>
+                    <li>ui: increase combobox popup's minimal width;</li>
+                    <li>ui: make checkbox/radio/tooltip background color darker in light mode;</li>
+                    <li>ui: make search result rows a little taller;</li>
+                    <li>ui: simplify error message with MAC connection when device is not responding;</li>
+                    <li>add new field type support used by future RouterOS version;</li>
+                    <li>change intermediary certificate for Windows executable signing;</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.0.1" date="2026-02-16">
             <description>
                 <p>What's new:</p>
