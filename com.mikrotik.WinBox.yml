@@ -14,6 +14,7 @@ finish-args:
   - --filesystem=/run/media
   - --filesystem=/mnt
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
+  - --env=QT_QPA_PLATFORM=xcb
 modules:
   - name: WinBox
     buildsystem: simple
