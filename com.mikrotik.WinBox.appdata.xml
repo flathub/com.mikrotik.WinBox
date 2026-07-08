@@ -48,6 +48,61 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.2" date="2026-07-08">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>app: auto decrypt Saved address file in new window if parent window already provided it;</li>
+                    <li>form: add option to open linked objects for some read-only optional fields;</li>
+                    <li>form: add support for dynamic column re-layout when resizing window;</li>
+                    <li>form: allow mouse select a warning text;</li>
+                    <li>form: calculate window width of query panel by also considering table width;</li>
+                    <li>form: do not show table duplicates in enum shortcut/extras popup;</li>
+                    <li>form: fix autostart of some opened action windows;</li>
+                    <li>form: fix file picker field state update (changed/error);</li>
+                    <li>form: fix query panel getting data immediately if there is no start command;</li>
+                    <li>form: fix slow user interface when combobox has huge amount of dynamic data;</li>
+                    <li>form: fix some combobox sorting as requested by RouterOS;</li>
+                    <li>form: improve load performance if data contains large amount of multi-array rows;</li>
+                    <li>form: separate combobox visually and sort items separately from different enum sources;</li>
+                    <li>login,romon: fix connect in new window;</li>
+                    <li>login,romon: fix visual bug showing "Error: Object doesn't exist" while connecting to slow device;</li>
+                    <li>login,romon: show a clearer error when username/password wrong;</li>
+                    <li>login: download RouterOS index files sequentially to make login process more stable;</li>
+                    <li>login: select all text in "Connect To" field when opening WinBox;</li>
+                    <li>login: try to ignore all RouterOS WinBox file parsing errors and connect to RouterOS anyway;</li>
+                    <li>settings: change default row padding value from 4 to 3 (affects only new winbox installs);</li>
+                    <li>skins: fix crash when field references other fields from hidden table;</li>
+                    <li>table: add Ctrl(CMD)+E to enable and Ctrl(CMD)+Shift+E shortcuts to disable selected rows;</li>
+                    <li>table: add Insert and Ctrl(CMD)+N shortcuts to add new item;</li>
+                    <li>table: add support for cells with colored text by condition;</li>
+                    <li>table: add support to configure comment column/header type in each table;</li>
+                    <li>table: allow up/down keyboard navigation when there is no current row focus;</li>
+                    <li>table: correctly calculate default flags column width if there are combined flags;</li>
+                    <li>table: fix column sorting in rare cases;</li>
+                    <li>table: fix some buttons to be correctly under Actions group;</li>
+                    <li>table: hide live/pause button in Torch type windows (e.g. Profile/Ping) and Saved routers table;</li>
+                    <li>table: improve performance of table's quick filter with many records;</li>
+                    <li>table: improve performance when scrolling;</li>
+                    <li>table: remove selection/checkbox column;</li>
+                    <li>table: show field postfix in column header if available;</li>
+                    <li>terminal: add support for mouse scroll in script editor;</li>
+                    <li>terminal: fix Enter key located on Numpad for macOS;</li>
+                    <li>ui: add progress bar support for number based fields in form and table;</li>
+                    <li>ui: add settings info that table has end/home/pageup/pagedown shortcuts;</li>
+                    <li>ui: fix "Wireless Snooper" table cell values;</li>
+                    <li>ui: fix to show only 1 confirmation dialog if action performed on multiple items;</li>
+                    <li>ui: make form background a little lighter in light mode;</li>
+                    <li>ui: make popup background same as form in darkmode;</li>
+                    <li>ui: make workspace Name field read only after it is added;</li>
+                    <li>ui: scale context menu width according to zoom;</li>
+                    <li>ui: show info that RouterOS update is available;</li>
+                    <li>windows: update certificate for Windows executable signing;</li>
+                    <li>add new field type support used by future RouterOS version;</li>
+                    <li>update Documentation link in About window;</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.1" date="2026-04-13">
             <description>
                 <p>What's new:</p>
