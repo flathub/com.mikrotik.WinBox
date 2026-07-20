@@ -48,6 +48,29 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.3" date="2026-07-20">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>app: add Windows for arm64 version in file WinBox_Windows_arm64.zip;</li>
+                    <li>form: make multiline input field height logic as in WinBox v3;</li>
+                    <li>table: add quick comment feature (allow multi-row commenting);</li>
+                    <li>table: allow opening "Table settings" also via right mouse click;</li>
+                    <li>table: calculate implicit height to fit 16 regular rows including row paddings;</li>
+                    <li>table: fix quick filter sorting in some situations;</li>
+                    <li>table: improve performance on relayout which mostly happens when zooming;</li>
+                    <li>table: show collapsed tools right menu as dropdown button in table toolbar;</li>
+                    <li>- add global setting to change default tools position (right-side or toolbar);</li>
+                    <li>ui,settings: render font selection items with the respective font;</li>
+                    <li>ui: add app Quit option in Settings dropdown menu;</li>
+                    <li>ui: add fade effect to main menu when scrolling is available;</li>
+                    <li>ui: change login panel's selection widget from combobox to tabs;</li>
+                    <li>ui: layout main menu's submenu items in 1 column if space is available;</li>
+                    <li>ui: redesign opened windows selector popup;</li>
+                    <li>ui: rework scrolling so that it works when there is table within form and fix scrolling lag;</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.2" date="2026-07-08">
             <description>
                 <p>What's new:</p>
