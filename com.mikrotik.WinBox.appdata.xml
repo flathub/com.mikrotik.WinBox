@@ -47,6 +47,54 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.4" date="2026-09-14">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>app: add ROS gui file caching support;</li>
+                    <li>- downloaded to standard OS cache directory;</li>
+                    <li>- cached for 30 days;</li>
+                    <li>- rechecked on startup if 24h passed;</li>
+                    <li>app: remember previously used file selector dialog path;</li>
+                    <li>- for upload/download/addresses separate context/path;</li>
+                    <li>combobox: fix refreshing items with filtered lists;</li>
+                    <li>fix crash when disabling interface and then disconnecting;</li>
+                    <li>form,table: fix some advanced lookup fields, when there is no value;</li>
+                    <li>form: add support to reset configuration for some objects;</li>
+                    <li>form: fix crash when fast pressing Start/Stop in some action panels;</li>
+                    <li>form: improve inherited value ux to not show set value if field is closed;</li>
+                    <li>form: improve qr code rendering;</li>
+                    <li>form: prevent calling multiple parallel add/set commands in same form;</li>
+                    <li>graphs: show y labels and values in same scale;</li>
+                    <li>login,neighbors: use mac address if IP not valid when clicking any cell;</li>
+                    <li>table: improve performance when many rows selected and changes are happening;</li>
+                    <li>- e.g. select all rows and remove;</li>
+                    <li>ui: add Clear cache button in settings panel;</li>
+                    <li>ui: add confirmation dialog when removing table items (with opt-out feature);</li>
+                    <li>- except Login Saved table always ask for confirmation;</li>
+                    <li>ui: add downloading gui files progress information;</li>
+                    <li>ui: add option to auto follow system theme (auto/dark/light);</li>
+                    <li>ui: add option to configure terminal scrollback buffer size;</li>
+                    <li>ui: add spacers in Shortcuts info popup panel;</li>
+                    <li>ui: add support for opening multiple internal instances for table windows without tabs;</li>
+                    <li>- e.g. Log,Radius;</li>
+                    <li>ui: allow opening relevant sections when clicking on Resources bottom panel;</li>
+                    <li>ui: change color of .npk icons in Files menu to differ from directories;</li>
+                    <li>ui: left menu: rework submenu closing logic for better UX;</li>
+                    <li>- also set minimal width of submenu;</li>
+                    <li>ui: login panel change Remember -> remember (lower case) for consistency;</li>
+                    <li>ui: make default scrollbar width/height a few px larger;</li>
+                    <li>ui: make sysnote popup display in monospace font;</li>
+                    <li>ui: optimize event list performance;</li>
+                    <li>ui: pause event list message auto removal while list is mouse hovered;</li>
+                    <li>ui: shortcuts panel: add info about Shift+Click for multi column sort and multi tab open;</li>
+                    <li>ui: store OS window position in workspace files and restore when connecting with "open in new";</li>
+                    <li>ui: table: add shortcut tooltip info for Find widget and make it a little wider;</li>
+                    <li>winbox-api: add support for new field types for future use;</li>
+                    <li>winbox-api: fix some advanced fields used in ros6 routing;</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.3" date="2026-07-20">
             <description>
                 <p>What's new:</p>
