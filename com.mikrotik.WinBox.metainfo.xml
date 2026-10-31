@@ -8,14 +8,14 @@
     </developer>
     <summary>RouterOS administration tool</summary>
     <metadata_license>CC0-1.0</metadata_license>
-    <project_license>LicenseRef-proprietary</project_license>
+    <project_license>LicenseRef-proprietary=https://mikrotik.com/software/legal</project_license>
     <description>
         <p>
             WinBox is a small utility that allows the administration of
             MikroTik RouterOS using a fast and simple GUI. All WinBox
             interface functions are as close as possible mirroring the
             console functions, that is why there are no WinBox sections
-            in the manual. 
+            in the manual.
         </p>
     </description>
     <categories>
@@ -32,27 +32,27 @@
     <url type="bugtracker">https://mikrotik.com/support</url>
     <screenshots>
         <screenshot type="default" environment="gnome">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-main-light.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-main-light.png</image>
             <caption>Login screen</caption>
         </screenshot>
         <screenshot environment="gnome:dark">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-main-dark.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-main-dark.png</image>
             <caption>Login screen</caption>
         </screenshot>
         <screenshot environment="gnome">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-list-light.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-list-light.png</image>
             <caption>List of interfaces and bridge ports</caption>
         </screenshot>
         <screenshot environment="gnome:dark">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-list-dark.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-list-dark.png</image>
             <caption>List of interfaces and bridge ports</caption>
         </screenshot>
         <screenshot environment="gnome">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-propbox-light.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-propbox-light.png</image>
             <caption>Interface property sheet</caption>
         </screenshot>
         <screenshot environment="gnome:dark">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-propbox-dark.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-propbox-dark.png</image>
             <caption>Interface property sheet</caption>
         </screenshot>
     </screenshots>
@@ -228,5 +228,5 @@
                 </ul>
             </description>
         </release>
-  </releases>
+    </releases>
 </component>
