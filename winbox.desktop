@@ -1,10 +1,11 @@
 [Desktop Entry]
-Name=Winbox
-Comment=Configuration tool for RouterOS
+Name=WinBox
+Comment=RouterOS administration tool
 Exec=winbox
 Icon=com.mikrotik.WinBox
 Terminal=false
 Type=Application
 StartupNotify=true
+StartupWMClass=WinBox
 Categories=Network;RemoteAccess;
-Keywords=winbox;mikrotik;
+Keywords=winbox;mikrotik;routeros;
