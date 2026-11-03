@@ -1,6 +1,6 @@
 id: com.mikrotik.WinBox
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: winbox
 finish-args:
@@ -22,22 +22,23 @@ modules:
       - install -Dm755 apply_extra /app/bin/apply_extra
       - install -Dm755 winbox /app/bin/winbox
       - install -Dm644 winbox.desktop /app/share/applications/${FLATPAK_ID}.desktop
-      - install -Dm644 ${FLATPAK_ID}.appdata.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
+      - install -Dm644 ${FLATPAK_ID}.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
       - install -Dm644 winbox512.png /app/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png
     sources:
       - type: script
         dest-filename: apply_extra
         commands:
-          - unzip -qq WinBox_Linux.zip
+          - set -e
+          - unzip -oq WinBox_Linux.zip
           - chmod 755 WinBox
           - rm -rf assets WinBox_Linux.zip
       - type: extra-data
         filename: WinBox_Linux.zip
         only-arches:
           - x86_64
-        url: https://download.mikrotik.com/routeros/winbox/4.4/WinBox_Linux.zip
-        sha256: 49b1faabab55804c491aa2947efbade967815d53df7698cc7876a0c1d636cdc1
-        size: 20769844
+        url: https://download.mikrotik.com/routeros/winbox/4.5/WinBox_Linux.zip
+        sha256: 5192817089eb91ac5d03edc68661b2603ef81f8098627ab4fd9425b6cc7546a2
+        size: 21236865
         x-checker-data:
           type: html
           url: https://mikrotik.com/download/winbox
@@ -45,10 +46,10 @@ modules:
       - type: script
         dest-filename: winbox
         commands:
-          - exec /app/extra/WinBox $@
+          - exec /app/extra/WinBox "$@"
       - type: file
         path: winbox.desktop
       - type: file
-        path: com.mikrotik.WinBox.appdata.xml
+        path: com.mikrotik.WinBox.metainfo.xml
       - type: file
         path: winbox512.png

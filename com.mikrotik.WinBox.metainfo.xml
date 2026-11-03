@@ -3,50 +3,84 @@
     <id>com.mikrotik.WinBox</id>
     <launchable type="desktop-id">com.mikrotik.WinBox.desktop</launchable>
     <name>WinBox</name>
-    <developer_name>SIA Mikrotīkls</developer_name>
+    <developer id="com.mikrotik">
+        <name>SIA Mikrotīkls</name>
+    </developer>
     <summary>RouterOS administration tool</summary>
     <metadata_license>CC0-1.0</metadata_license>
-    <project_license>LicenseRef-proprietary</project_license>
+    <project_license>LicenseRef-proprietary=https://mikrotik.com/software/legal</project_license>
     <description>
         <p>
             WinBox is a small utility that allows the administration of
             MikroTik RouterOS using a fast and simple GUI. All WinBox
             interface functions are as close as possible mirroring the
             console functions, that is why there are no WinBox sections
-            in the manual. 
+            in the manual.
         </p>
     </description>
-    <url type="homepage">https://mikrotik.com</url>
+    <categories>
+        <category>Network</category>
+        <category>RemoteAccess</category>
+    </categories>
+    <keywords>
+        <keyword>winbox</keyword>
+        <keyword>mikrotik</keyword>
+        <keyword>routeros</keyword>
+    </keywords>
+    <url type="homepage">https://mikrotik.com/winbox</url>
     <url type="help">https://help.mikrotik.com/docs/display/ROS/WinBox</url>
     <url type="bugtracker">https://mikrotik.com/support</url>
     <screenshots>
         <screenshot type="default" environment="gnome">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-main-light.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-main-light.png</image>
             <caption>Login screen</caption>
         </screenshot>
         <screenshot environment="gnome:dark">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-main-dark.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-main-dark.png</image>
             <caption>Login screen</caption>
         </screenshot>
         <screenshot environment="gnome">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-list-light.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-list-light.png</image>
             <caption>List of interfaces and bridge ports</caption>
         </screenshot>
         <screenshot environment="gnome:dark">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-list-dark.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-list-dark.png</image>
             <caption>List of interfaces and bridge ports</caption>
         </screenshot>
         <screenshot environment="gnome">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-propbox-light.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-propbox-light.png</image>
             <caption>Interface property sheet</caption>
         </screenshot>
         <screenshot environment="gnome:dark">
-            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/refs/heads/master/screenshots/winbox-propbox-dark.png</image>
+            <image>https://raw.githubusercontent.com/flathub/com.mikrotik.WinBox/a8057f185c4689d91e3b31f340d63c0ac12e01fb/screenshots/winbox-propbox-dark.png</image>
             <caption>Interface property sheet</caption>
         </screenshot>
     </screenshots>
+    <provides>
+        <binary>winbox</binary>
+    </provides>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.5" date="2026-11-03">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>ui: rewrite combobox to support filtering/suggestions;</li>
+                    <li>app: ignore QML_DISABLE_DISK_CACHE env variable in case user has set it somehow;</li>
+                    <li>routeros-api: add support for new ui types;</li>
+                    <li>table: compact enable/disable/remove/comment buttons when there is no space;</li>
+                    <li>table: optimize fields where data are retrieved from other table (e.g. DHCP Leases -> Bridge Port);</li>
+                    <li>table: optimize large ordered list rendering (e.g. Log);</li>
+                    <li>table: show tools in toolbar as buttons if there is space available;</li>
+                    <li>ui: add topology support;</li>
+                    <li>ui: change text selection color in dark mode;</li>
+                    <li>ui: make input field and table cell text color brighter in dark mode;</li>
+                    <li>ui: rework bar graphs ui;</li>
+                    <li>ui: update and add new icons;</li>
+                    <li>ui: update icons for users tables;</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.4" date="2026-09-14">
             <description>
                 <p>What's new:</p>
@@ -214,5 +248,5 @@
                 </ul>
             </description>
         </release>
-  </releases>
+    </releases>
 </component>
