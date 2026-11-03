@@ -47,6 +47,26 @@
     </screenshots>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="4.5" date="2026-11-03">
+            <description>
+                <p>What's new:</p>
+                <ul>
+                    <li>ui: rewrite combobox to support filtering/suggestions;</li>
+                    <li>app: ignore QML_DISABLE_DISK_CACHE env variable in case user has set it somehow;</li>
+                    <li>routeros-api: add support for new ui types;</li>
+                    <li>table: compact enable/disable/remove/comment buttons when there is no space;</li>
+                    <li>table: optimize fields where data are retrieved from other table (e.g. DHCP Leases -> Bridge Port);</li>
+                    <li>table: optimize large ordered list rendering (e.g. Log);</li>
+                    <li>table: show tools in toolbar as buttons if there is space available;</li>
+                    <li>ui: add topology support;</li>
+                    <li>ui: change text selection color in dark mode;</li>
+                    <li>ui: make input field and table cell text color brighter in dark mode;</li>
+                    <li>ui: rework bar graphs ui;</li>
+                    <li>ui: update and add new icons;</li>
+                    <li>ui: update icons for users tables;</li>
+                </ul>
+            </description>
+        </release>
         <release version="4.4" date="2026-09-14">
             <description>
                 <p>What's new:</p>
